@@ -8,11 +8,10 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.MoveMouse;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.ensure.Ensure;
-import org.mockito.internal.matchers.Find;
 
 import static co.com.falabella.pages.BienvenidaPage.BOTON_SALTAR;
 import static co.com.falabella.pages.OportunidadesUnicasPage.SECCION_DEPORTES;
-import static co.com.falabella.pages.TarjetasYCuentasPage.BOTON_OPORTUNIDADES_UNICAS;
+import static co.com.falabella.pages.DesplegableTarjetasYCuentasPage.BOTON_OPORTUNIDADES_UNICAS;
 import static co.com.falabella.pages.TernaryNavbarPage.DESPLEGABLE_TARJETAS_Y_CUENTAS;
 
 public class OportunidadesUnicasStepDefinitions {
