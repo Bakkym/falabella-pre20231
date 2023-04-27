@@ -8,12 +8,14 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.MoveMouse;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.ensure.Ensure;
+import net.thucydides.core.webdriver.shadow.ByShadow;
 
 import static co.com.falabella.pages.BienvenidaPage.BOTON_SALTAR;
 import static co.com.falabella.pages.CabeceraPage.BOTON_MENU;
 import static co.com.falabella.pages.MenuCategoriaPage.TECNOLOGIA_PORTATILES;
 import static co.com.falabella.pages.MenuPage.CATEGORIA_TECNOLOGIA;
 import static co.com.falabella.pages.ProductosPorCategoriaPage.PRODUCTOS_PORTATILES;
+import static co.com.falabella.pages.SuscripcionOfertasPage.BOTON_CANCELAR_OFERTAS;
 
 public class MenuBusquedaStepDefinitions {
     @Dado("que {actor} busca portatiles en el menu")
@@ -21,6 +23,7 @@ public class MenuBusquedaStepDefinitions {
         actor.attemptsTo(
                 Open.url("https://www.falabella.com.co"),
                 Click.on(BOTON_SALTAR),
+                Click.on(BOTON_CANCELAR_OFERTAS),
                 Click.on(BOTON_MENU)
         );
     }
