@@ -5,9 +5,7 @@ import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.*;
-import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.openqa.selenium.Keys;
 
 import static co.com.falabella.pages.BienvenidaPage.BOTON_SALTAR;
 import static co.com.falabella.pages.CabeceraPage.DESPLEGABLE_LOGIN;

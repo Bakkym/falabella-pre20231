@@ -6,7 +6,6 @@ import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.ensure.Ensure;
-import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.falabella.pages.BienvenidaPage.BOTON_SALTAR;
 import static co.com.falabella.pages.DesplegableOrdenarHomecenterFalabellaPage.BOTON_PRECIO_MENOR_A_MAYOR;
@@ -15,7 +14,6 @@ import static co.com.falabella.pages.HomecenterFalabellaSeccionPage.DESPLEGABLE_
 import static co.com.falabella.pages.HomecenterFalabellaSeccionPage.LISTA_PRODUCTOS;
 import static co.com.falabella.pages.TiendasOficialesPage.HOMECENTER_IMAGE;
 import static co.com.falabella.pages.TiendasOficialesPage.SECCION_TIENDAS_OFICIALES;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 
 public class BusquedaArticulosHomecenterStepDefinitions {
