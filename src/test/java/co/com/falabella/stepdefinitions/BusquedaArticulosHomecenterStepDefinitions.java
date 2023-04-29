@@ -42,8 +42,7 @@ public class BusquedaArticulosHomecenterStepDefinitions {
         actor.attemptsTo(
                 Click.on(DESPLEGABLE_ORDERNAR),
                 Click.on(BOTON_PRECIO_MENOR_A_MAYOR),
-                WaitUntil.the(LISTA_PRODUCTOS, isVisible()).forNoMoreThan(6).seconds(),
-                Ensure.that(LISTA_PRODUCTOS).textValues().hasSizeGreaterThanOrEqualTo(cantidadProductos)
+                Ensure.that(LISTA_PRODUCTOS).textContentValues().hasSizeGreaterThanOrEqualTo(cantidadProductos)
 
         );
 

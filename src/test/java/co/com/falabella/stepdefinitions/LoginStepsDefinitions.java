@@ -38,8 +38,7 @@ public class LoginStepsDefinitions {
                 Enter.theValue(email).into(INPUT_EMAIL),
                 Enter.theValue(password).into(INPUT_PASSWORD),
                 Click.on(BOTON_INGRESAR),
-                WaitUntil.the(DESPLEGABLE_USUARIO_LOGEADO, isVisible()).forNoMoreThan(3).seconds()
-
+                Switch.toNewWindow()
         );
 
 
@@ -47,7 +46,7 @@ public class LoginStepsDefinitions {
     @Entonces("{actor} debe tener acceso a la informacion de su cuenta")
     public void verificarCuenta(Actor actor) {
         actor.attemptsTo(
-                MoveMouse.to(DESPLEGABLE_USUARIO_LOGEADO),
+                Click.on(DESPLEGABLE_USUARIO_LOGEADO),
                 Click.on(BOTON_MI_CUENTA),
                 WaitUntil.the(BOTON_CONFIGURACION_CUENTA, isVisible()).forNoMoreThan(5).seconds()
 
