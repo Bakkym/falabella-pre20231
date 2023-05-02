@@ -40,6 +40,7 @@ public class BusquedaArticulosHomecenterStepDefinitions {
         actor.attemptsTo(
                 Click.on(DESPLEGABLE_ORDERNAR),
                 Click.on(BOTON_PRECIO_MENOR_A_MAYOR),
+                // ERROR EN ESTE ENSURE
                 Ensure.that(LISTA_PRODUCTOS).textContentValues().hasSizeGreaterThanOrEqualTo(cantidadProductos)
 
         );
