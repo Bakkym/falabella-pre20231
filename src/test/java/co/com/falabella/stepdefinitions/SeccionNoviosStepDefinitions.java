@@ -23,8 +23,6 @@ public class SeccionNoviosStepDefinitions {
                 Click.on(BOTON_SALTAR),
                 Click.on(BOTON_SECCION_NOVIOS),
                 Switch.toNewWindow()
-
-
         );
     }
     @Cuando("{actor} ingresa el apellido {string} en la seccion de novios")

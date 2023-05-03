@@ -4,6 +4,6 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class BienvenidaPage {
-    public static Target BOTON_SALTAR = Target.the("barra de busqueda").located(By.id("testId-onboarding-desktop-skip"));
+    public static Target BOTON_SALTAR = Target.the("saltar anuncio bienvenida").located(By.id("testId-onboarding-desktop-skip"));
 
 }
