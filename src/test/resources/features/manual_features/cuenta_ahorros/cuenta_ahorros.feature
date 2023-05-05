@@ -1,6 +1,7 @@
 # language: es
 Característica: Cuenta de ahorros
 
+  @Manual
   Escenario: Abrir una cuenta de ahorros
     Dado que Camilo desea abrir su cuenta de ahorros
     Cuando Camilo ingresa a la seccion cuenta de ahorros
