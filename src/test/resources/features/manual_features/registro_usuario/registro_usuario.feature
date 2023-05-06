@@ -1,9 +1,11 @@
 # language: es
-Característica: Canjear CMR puntos
+Característica: Registrar un nuevo usuario
 
   @Manual
-  Escenario: Canjear CMR puntos en bonos
-    Dado que Camilo desea usar sus CMR puntos
-    Cuando  Camilo selecciona la categoria de bonos
-    Entonces Camilo debe ver diferentes bonos disponibles
+  Escenario: Registrarse en Falabella
+    Dado que Camilo desea registrarse en Falabella
+    Cuando  Camilo pasa el mouse por el desplegable de iniciar sesion
+    Y le da click al boton de registrarse
+    Y rellena el formulario con sus datos
+    Entonces Camilo debera tener su usario ya creado
 
